@@ -7,7 +7,7 @@ const port = process.env.PORT||3000;
 app.get('/', (req, res) => {
     console.log("someone is requesting on this server", new Date());
     console.log("some changes")
-  res.send('Hello World form Hiten Kumar!' + req.ip)
+  res.send('Hello World form Hiten Kumar!')
 })
 
 app.listen(port, () => {
